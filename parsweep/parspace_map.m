@@ -65,4 +65,4 @@ title('Rate of membrane surface area increase','FontSize',12,'fontweight','bold'
 c = colorbar;
 ylabel(c,{'log Rate of growth(cm^2 day^-1)'},'FontSize',12)
 % ylabel(c,'$log \hspace{1mm} (cm^2 \hspace{1mm} day^{-1})$','FontSize',12,'interpreter','latex')
-saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_parspace'],'-tif','-r600'); close all
+% saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_parspace'],'-tif','-r600'); close all

@@ -58,4 +58,4 @@ xlabel('Time (days)')
 % set(h,'Position',[0.8206    0.0282    0.1594    0.1671])
 shg
 set(gcf,'Position',[543   101   548   858])
-saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_reworked_query_series'],'-tif','-r600'); close all
+% saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_reworked_query_series'],'-tif','-r600'); close all
