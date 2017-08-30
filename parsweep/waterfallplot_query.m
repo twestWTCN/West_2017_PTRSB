@@ -47,7 +47,7 @@ ylabel({'log [crystal] in '; 'membrane (mol dm^{-3})'})
 % ylabel({'$log [crys]^{mem}$'; '$(mol \hspace{1mm} dm^{-3})$'},'interpreter','latex')
 ylim([-9.5 -4.5])
 subplot(size(porder,2),1,5)
-ylabel({'log SA of ';'Cytosol (cm^2)'})
+ylabel({'log SA';'(cm^2)'})
 % ylabel({'$log SA^{cyto}$';'$(cm^2)$'},'interpreter','latex')
 ylim([-10 -7])
 xlabel('Time (days)')
@@ -58,4 +58,4 @@ xlabel('Time (days)')
 % set(h,'Position',[0.8206    0.0282    0.1594    0.1671])
 shg
 set(gcf,'Position',[543   101   548   858])
-% saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_reworked_query_series'],'-tif','-r600'); close all
+saveallfiguresSFLAP([pwd '\parsweep\figures\protocell_reworked_query_series'],'-tif','-r600'); close all

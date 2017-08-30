@@ -28,7 +28,7 @@ AN = 6.02e23;
 R_orgs_cat = R_orgs_cat./AN; % convert to molar
 tvec = downsample(tvec,10);
 
-titname = {'Crystal size', 'Crystals in the protomembrane','Concentration of amino acids','Concentration of lipids','Protocell surface area','Crystals in cytosol'};
+titname = {'Crystal size', 'Crystals in the membrane','Concentration of amino acids','Concentration of lipids','Protocell surface area','Crystals in cytosol'};
 
 if ~exist([pwd '\parsweep\saves\']); mkdir([pwd '\parsweep\saves\']); end
 save([ pwd '\parsweep\saves\divparlists'],'Nmn','R_orgs_cat','K_aa')

@@ -41,7 +41,7 @@ ylim([-9.5 -5])
 %     set(gca,'Position',[ 974.5000   98.5000  857.5000  868.0000])
 
 subplot(3,1,3)
-ylabel({'log SA of Cytosol'; '(cm^2)'})
+ylabel({'log SA'; '(cm^2)'})
 %     ylabel({'$log \hspace{1mm} SA_{cyto} \hspace{1mm}$'; '$(cm^2)$'},'interpreter','latex')
 xlabel('Time (days)')
 %     xlabel('$Time \hspace{1mm}(days)$','interpreter','latex')
